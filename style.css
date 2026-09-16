@@ -1,0 +1,141 @@
+* { box-sizing: border-box; }
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background: #1e3a8a;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 { margin: 0 0 10px; font-size: 28px; }
+header p { margin: 0; font-size: 16px; opacity: 0.9; }
+
+nav {
+  background: #16296b;
+  text-align: center;
+  padding: 12px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 8px;
+  font-weight: bold;
+  font-size: 14px;
+  display: inline-block;
+}
+
+nav a:hover { text-decoration: underline; }
+
+main {
+  max-width: 850px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+section {
+  background: white;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+h2 {
+  color: #1e3a8a;
+  margin-top: 0;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 8px;
+}
+
+h3 { color: #333; margin-bottom: 5px; }
+
+ul { padding-left: 20px; }
+.horario li { margin-bottom: 4px; }
+
+.projeto {
+  background: #f9fafb;
+  border-left: 4px solid #1e3a8a;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+
+.tag {
+  display: inline-block;
+  background: #1e3a8a;
+  color: white;
+  font-size: 12px;
+  padding: 3px 8px;
+  border-radius: 4px;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.tabela-wrap { overflow-x: auto; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: 14px;
+  min-width: 500px;
+}
+
+th, td {
+  border: 1px solid #e5e7eb;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+th { background: #1e3a8a; color: white; cursor: default; }
+
+td:hover { background: #eef2ff; }
+
+td.marcado {
+  background: #d1fae5;
+  font-weight: bold;
+  color: #065f46;
+}
+
+.dica {
+  font-size: 13px;
+  color: #666;
+  font-style: italic;
+}
+
+button {
+  margin-top: 15px;
+  background: #1e3a8a;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover { background: #16296b; }
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+  font-size: 14px;
+}
+
+a { color: #1e3a8a; }
